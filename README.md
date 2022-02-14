@@ -1,4 +1,4 @@
-# cs361_microservice
+# CS361 Winter 2022 Microservice Project
 Microservice that wraps the Google Books API making it easier to use.
 
 
