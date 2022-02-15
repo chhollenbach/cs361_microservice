@@ -5,7 +5,7 @@ Microservice that wraps the Google Books API making it easier to use.
 # Instructions for setup
 * Install Node.js and npm
 * After cloning the project, run `npm install` to install all packages needed
-* Google Books API key is needed - using the dotenv package to keey api keys private
+* Google Books API key is needed - Project uses the dotenv package to keep api keys private
   - Create a google cloud account (free)
   - Visit the google cloud credentials page and create a new api key: https://console.developers.google.com/apis/credentials
   - Follow instructions here to enable the api key: https://support.google.com/googleapi/answer/6158841?hl=en
