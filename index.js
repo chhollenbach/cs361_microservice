@@ -37,5 +37,10 @@ app.get("/thumbnail/:isbn", async function (req, res) {
     const response = await fetch(url)
         .then(res => res.json());
 
-    res.send(response.items[0].volumeInfo.imageLinks.thumbnail);
+    try {
+        res.send(response.items[0].volumeInfo.imageLinks.thumbnail);
+    }
+    catch{
+        res.send("");
+    }
 })
